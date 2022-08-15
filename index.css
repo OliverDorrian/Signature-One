@@ -5,11 +5,11 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 /* Section 1 */
-
+/* Landing Section*/
 #section-1 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -49,7 +49,7 @@ html, body {
     padding: 20px;
     border-radius: 20px;
     width: 40%;
-    background-color: #D6A53F;
+    background-color: #a1781f;
     color: white;
     border: 0;
     font-size: 1.5em;
@@ -73,6 +73,7 @@ html, body {
 }
 
 /* Section 2 */
+/* Fact Banner */
 
 #section-2 {
     width: 100%;
@@ -94,10 +95,209 @@ html, body {
 .section-2-flex h1 {
     font-size: 3em;
     margin-right: 10px;
+    color: #D6A53F;
 }
 
 .section-2-flex p {
     font-size: 2em;
     margin-left: 10px;
+}
 
+.section-2-line {
+    background: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Section 3 */
+/* About Us */
+
+#section-3 {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+    height: fit-content;
+
+    background-color: #001220;
+}
+
+.custom-shape-divider-top-1660558228 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1660558228 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1660558228 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#section-3-title-container {
+    padding-bottom: 50px;
+}
+
+#section-3-title {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+    color: #D6A53F;
+}
+
+#section-3-flex-left-right {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#section-3-flex-left {
+    width: 50%;
+}
+
+#section-3-flex-left-inner {
+    height: 100%;
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3-flex-left-inner {
+    color: white;
+    font-size: 1.3em;
+}
+
+#section-3 ul {
+    width: 100%;
+}
+
+#section-3 ul p {
+    color: white;
+    border-left: 2px #D6A53F solid;
+    padding-left: 15px;
+}
+
+#section-3 ul ::marker {
+    color: #001220;
+}
+
+#section-3-flex-right {
+    width: 50%;
+    background-image: url("Screenshot\ 2019-09-26\ at\ 17.57.51.png");
+    background-size: cover;
+}
+
+.custom-shape-divider-bottom-1660561488 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1660561488 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1660561488 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* Section 4 */
+/* Quote section */
+
+#section-4 {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#section-4 blockquote {
+    border-left: 1.5px solid #000000;
+    color: #04313D;
+    font-style: italic;
+    padding: 1em 2em;
+    position: relative;
+    transition: 0.2s border ease-in-out;
+    z-index: 0;
+}
+
+#section-4 blockquote:before {
+    content: "";
+    position: absolute;
+    top: 44%;
+    left: -4px;
+    height: 6em;
+    background-color: white;
+    width: 5px;
+    margin-top: -1em;
+}
+
+#section-4 blockquote cite {
+    text-align: center;
+    color: #BC973F;
+    display: block;
+    font-size: 4em;
+    margin-top: 0.75em;
+}
+
+#section-4 blockquote p {
+    text-align: center;
+    font-size: 3em;
+    color: #000000 !important;
+}
+
+#section-4 blockquote:after {
+    content: "''";
+    position: absolute;
+    top: 50%;
+    left: -0.5em;
+    color: #000000;
+    font-size: 5em;
+    font-family: "Ionicons";
+    font-style: normal;
+    text-align: center;
+    text-indent: -2px;
+    width: 1em;
+    margin-top: -0.5em;
+    transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
+}
+
+
+
+/* Section 5 */
+/* Video Player */
+
+#section-5 {
+    background-color: #0C353F;
+}
+
+#video-container {
+    width: 100%;
+}
+
+#player {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
