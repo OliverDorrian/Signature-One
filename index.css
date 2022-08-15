@@ -58,7 +58,6 @@ html, body {
 #section-paragraph {
     color: white;
     font-size: 1.3em;
-
 }
 
 #right-flex {
@@ -117,7 +116,6 @@ html, body {
     padding-bottom: 140px;
     position: relative;
     height: fit-content;
-
     background-color: #001220;
 }
 
@@ -227,7 +225,7 @@ html, body {
     background-color: white;
     position: relative;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 #section-4 blockquote {
@@ -281,12 +279,84 @@ html, body {
     transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
 }
 
+.custom-shape-divider-bottom-1660570211 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1660570211 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1660570211 .shape-fill {
+    fill: #0c2f38;
+}
 
 /* Section 5 */
-/* Video Player */
+/* Facilities */
 
 #section-5 {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    height: fit-content;
+    background-color: #0c2f38;
+}
+
+#section-5-title {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+    color: white;
+}
+
+#section-5-title-container {
+    padding-bottom: 50px;
+}
+
+#section-5 #left-right-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#section-5 #left-flex {
+    width: 700px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-5 #section-paragraph {
+    color: white;
+    font-size: 1.3em;
+}
+
+#section-5 #right-flex {
+    height: fit-content;
+    width: fit-content;
+}
+
+#section-5 #fac-img {
+    display: inline;
+    height: 600px;
+    width: 400px;
+}
+
+/* Section 6 */
+/* Video Player */
+
+#section-6 {
     background-color: #0C353F;
 }
 
@@ -301,3 +371,16 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Section 7 */
+/* Ocean view */
+
+
+#section-7 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    height: fit-content;
+    background-color: white;
+}
+
