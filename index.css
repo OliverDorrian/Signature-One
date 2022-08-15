@@ -12,11 +12,10 @@ html, body {
 /* Landing Section*/
 #section-1 {
     padding-top: 50px;
-    padding-bottom: 50px;
     position: relative;
     background-color: #0C353F;
     height: fit-content;
-    background-image: url("blob-scene-haikei (1).svg");
+    background-image: url("ocean\ view.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,20 +43,11 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#section-button {
-    cursor: pointer;
-    padding: 20px;
-    border-radius: 20px;
-    width: 40%;
-    background-color: #a1781f;
-    color: white;
-    border: 0;
-    font-size: 1.5em;
-}
 
 #section-paragraph {
-    color: white;
-    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
 }
 
 #right-flex {
