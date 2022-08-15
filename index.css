@@ -326,6 +326,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -343,7 +344,7 @@ html, body {
 }
 
 #section-5 #right-flex {
-    height: fit-content;
+    height: 100%;
     width: fit-content;
 }
 
@@ -381,6 +382,80 @@ html, body {
     padding-bottom: 40px;
     position: relative;
     height: fit-content;
+    background-color: #122b31;
+    background-image: url("wave-haikei.svg");
+    background-size: cover;
+}
+
+#section-7-title-container {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+#section-7-title {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+    color: white;
+}
+
+#section-7-flex-3 {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-7-flex-1-container {
+    width: 100%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 6px, rgba(0, 0, 0, 0.3) 0px 10px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-bottom: 30px;
     background-color: white;
 }
 
+#section-7-flex-2-container {
+    width: 100%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 6px, rgba(0, 0, 0, 0.3) 0px 10px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+#section-7-flex-3-container {
+    width: 100%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 6px, rgba(0, 0, 0, 0.3) 0px 10px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.section-7-listinging-img {
+    border-bottom: unset;
+    width: 100%;
+    height: auto;
+}
+
+.section-7-listing-info {
+    padding: 50px;
+    height: fit-content;
+    border-left: unset;
+    border-right: unset;
+}
+
+#section-7-listing-title {
+    display: inline;
+    padding: 10px;
+    border: 2px solid #D6A53F;
+    border-left: unset;
+    border-right: unset;
+}
+
+.section-7-listing-info-para {
+    font-size: 1.5em;
+}
